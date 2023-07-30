@@ -24,3 +24,7 @@ artifacts:
     - package.json
     - appspec.yml
     - scripts/**/*
+    - dist/**
+    - vite.config.ts
+    - tsconfig.json
+    - tsconfig.node.json
