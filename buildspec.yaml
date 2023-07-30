@@ -5,6 +5,7 @@ phases:
     commands:
       #installs dependencies into the node_modules/ directory
       - npm install -g npm@8.15.0
+      - npm install vite -g
       - npm ci
   build:
     commands:
